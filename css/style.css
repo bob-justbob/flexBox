@@ -1,0 +1,439 @@
+header {
+    width: 100%;
+    height: 30px;
+}
+
+.hed {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+h2 {
+    color: tomato;
+}
+
+.logo {
+    width: 4%;
+    object-fit: cover;
+}
+
+.logo img {
+    width: 40px;
+    height: 20px;
+}
+.contHeader {
+    width: 96%;
+    margin-left: 2%;
+}
+
+.contHeader h1 {
+    text-align: left;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 2%;
+}
+.conteinerTwo {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 2%;
+}
+
+.conteinerTree {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 2%;
+}
+.conteinerDivThree {
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.conteinerDivTwo {
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.conteinerDiv {
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.conteinerr {
+    width: 30%;
+    height: 380px;
+    margin-left: 1%;
+    border: 2px solid gray;
+}
+
+
+.name {
+    height: 220px;
+    width: 100%;
+}
+
+.content {
+    height: 110px;
+    padding-left: 2%;
+}
+
+.view {
+    height: 30px;
+    width: 100%;
+    margin-left: 2%;
+}
+
+.divName {
+    width: 100%;
+    /* padding-top: 40%;
+    padding-left: 34%; */
+    font-size: 32px;
+    font-weight: bold;
+}
+.divName h2 {
+    text-align: center;
+    padding-top: 30%;
+}
+
+
+.hoppUpOne {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    /* margin-top: 3%; */
+    background-color: white;
+    display: none;
+    /* background: rgba(0,0,0,0.6); */
+}   
+
+.hopup {
+    height: 150px;
+    width: 100%;
+    
+}
+
+.hophop {
+    border: 5px solid black;
+   display: flex;
+   flex-direction: row;
+}
+
+.close {
+    height: 25px;
+    width: 100%;
+    margin-top: 50%;
+}
+.closeOne {
+    height: 25px;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.closeUp {
+    margin-left: 75%;
+}
+
+.hoppUpTwo {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    /* margin-top: 3%; */
+    margin-left: 25%;
+    background-color: white;
+    display: none;
+
+    
+}   
+
+.hoppUpThree {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    /* margin-top: 3%; */
+    margin-left: 50%;
+    background-color: white;
+    display: none;
+
+}   
+
+.hoppUpFour {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    /* margin-top: 3%; */
+    background-color: white;
+    display: none;
+
+}
+
+.hoppUpFive {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    /* margin-top: 3%; */
+    margin-left: 25%;
+    background-color: white;  
+    display: none;
+
+}   
+
+.hoppUpSix {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    /* margin-top: 3%; */
+    margin-left: 50%;
+    background-color: white;
+    display: none;
+
+} 
+
+.hoppUpSeven {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    /* margin-top: 3%; */
+    background-color: white;
+    display: none;
+
+}
+
+.hoppUpEight {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    /* margin-top: 3%; */
+    margin-left: 25%;
+    background-color: white;  
+    display: none;
+
+}   
+
+.hoppUpNine {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    /* margin-top: 3%; */
+    margin-left: 50%;
+    background-color: white;
+    display: none;
+} 
+
+
+#naruto {
+    background-image: url(../img/naruto.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#ichigo {
+    background-image: url(../img/ichigo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#luffy {
+    background-image: url(../img/luffy.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#berseker {
+    background-image: url(../img/berseker.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#natsu {
+    background-image: url(../img/natsu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#dragon {
+    background-image: url(../img/tanjiroo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#eren {
+    background-image: url(../img/eren.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#vanitas {
+    background-image: url(../img/vanitas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+#boji {
+    background-image: url(../img/boj.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+@media only screen and (max-width: 870px){
+    .hoppUpOne {
+        width: 80%;
+        height: 35%;
+    }
+    .close {
+        margin-top: 20%;
+    }
+    .hoppUpTwo{
+        margin-top: 50%;
+        width: 80%;
+        margin-left: 0%;
+    }
+    .hoppUpThree {
+        margin-top: 99%;
+        width: 80%;
+        margin-left: 0%;
+    }
+    .hoppUpFour {
+        width: 80%;
+        height: 34%;
+    }
+    .hoppUpFive{
+        margin-top: 50%;
+        width: 80%;
+        margin-left: 0%;
+        height: 34%;
+    }
+    .hoppUpSix {
+        margin-top: 99%;
+        margin-left: 0%;
+        width: 80%;
+        height: 34%;
+    } 
+
+    .hoppUpSeven {
+        width: 80%;
+        height: 34%;
+    }
+    .hoppUpEight{
+        width: 80%;
+        margin-left: 0%;
+        margin-top: 49%;
+        height: 35%;
+    }
+    .hoppUpNine {
+        margin-top: 99%;
+        margin-left: 0%;
+        height: 35%;
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 870px){
+    .conteiner {
+        width: 100%;
+        /* height: 100%; */
+    }
+    .conteinerDiv {
+        flex-direction: column;
+        margin-bottom: 100%;
+    }
+    .conteinerr {
+        width: 100%;
+        
+    }
+    .conteinerTwo {
+        width: 100%;
+    }
+    .conteinerDivTwo {
+        flex-direction: column;
+        margin-bottom: 100%;
+    }
+    
+    .conteinerTree {
+        width: 100%;
+        /* margin-top: 50%; */
+    }
+    .conteinerDivThree {
+        flex-direction: column;
+        /* margin-top: 200px; */
+    }
+}
+
+@media only screen and (max-width: 870px){
+    .conteinerr {
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .hoppUpTwo {
+        margin-top: 400px;
+    }
+    .hoppUpThree {
+        margin-top: 785px;
+        height: 34%;
+    }
+    .hoppUpFour {
+        margin-top: 4px;
+    }
+    .hoppUpFive {
+        margin-top: 392px;
+    }
+    .hoppUpSix {
+        margin-top: 787px;
+    }
+    .hoppUpEight {
+        margin-top: 394px;
+    }
+    .hoppUpNine {
+        margin-top: 780px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .conteinerTree {
+        margin-top: 5%;
+    }
+}
+@media only screen and (max-width: 760px){
+    .conteiner {
+        height: 1130px;
+    }
+
+    .conteinerr {
+        height: 1200px;
+    }
+    .conteinerTwo {
+        height: 1130px;
+        margin-bottom: 5%;
+    }
+
+    .conteinerr {
+        height: 1200px;
+    }
+}
