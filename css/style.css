@@ -113,7 +113,7 @@ h2 {
 
 .hoppUpOne {
     position: absolute;
-    width: 320px;
+    width: 500px;
     height: 400px;
     /* margin-top: 3%; */
     background-color: white;
@@ -150,7 +150,8 @@ h2 {
 
 .hoppUpTwo {
     position: absolute;
-    width: 320px;
+    width: 500px;
+
     height: 400px;
     /* margin-top: 3%; */
     margin-left: 25%;
@@ -162,7 +163,8 @@ h2 {
 
 .hoppUpThree {
     position: absolute;
-    width: 320px;
+    width: 500px;
+
     height: 400px;
     /* margin-top: 3%; */
     margin-left: 50%;
@@ -173,7 +175,8 @@ h2 {
 
 .hoppUpFour {
     position: absolute;
-    width: 320px;
+    width: 500px;
+
     height: 400px;
     /* margin-top: 3%; */
     background-color: white;
@@ -183,7 +186,8 @@ h2 {
 
 .hoppUpFive {
     position: absolute;
-    width: 320px;
+    width: 500px;
+
     height: 400px;
     /* margin-top: 3%; */
     margin-left: 25%;
@@ -194,7 +198,8 @@ h2 {
 
 .hoppUpSix {
     position: absolute;
-    width: 320px;
+    width: 500px;
+
     height: 400px;
     /* margin-top: 3%; */
     margin-left: 50%;
@@ -205,7 +210,8 @@ h2 {
 
 .hoppUpSeven {
     position: absolute;
-    width: 320px;
+    width: 500px;
+
     height: 400px;
     /* margin-top: 3%; */
     background-color: white;
@@ -215,7 +221,8 @@ h2 {
 
 .hoppUpEight {
     position: absolute;
-    width: 320px;
+    width: 500px;
+
     height: 400px;
     /* margin-top: 3%; */
     margin-left: 25%;
@@ -226,8 +233,9 @@ h2 {
 
 .hoppUpNine {
     position: absolute;
-    width: 320px;
-    height: 400px;
+    width: 500px;
+
+    height: 200px;
     /* margin-top: 3%; */
     margin-left: 50%;
     background-color: white;
