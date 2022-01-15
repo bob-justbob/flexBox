@@ -1,97 +1,91 @@
-const btn1 = document.querySelector('#clickOne')
-const btn2 = document.querySelector('#clickTwo')
-const btn3 = document.querySelector('#clickThree')
-const btn4 = document.querySelector('#clickFour')
-const btn5 = document.querySelector('#clickFive')
-const btn6 = document.querySelector('#clickSix')
-const btn7 = document.querySelector('#clickSeven')
-const btn8 = document.querySelector('#clickEight')
-const btn9 = document.querySelector('#clickNine')
-const closeOne = document.querySelector('#closeOne')
-const closeTwo = document.querySelector('#closeTwo')
-const closeThree = document.querySelector('#closeThree')
-const closefour = document.querySelector('#closeFour')
-const closeFive = document.querySelector('#closeFive')
-const closeSix = document.querySelector('#closeSix')
-const closeSeven = document.querySelector('#closeSeven')
-const closeEight = document.querySelector('#closeEight')
-const closeNine = document.querySelector('#closeNine')
+const btn1 = document.querySelector('#btnOne');
+const hop = document.querySelector('.hop')
+const close1 = document.querySelector('#closeOne')
+const btn2 = document.querySelector('#btnTwo');
+const hopTwo = document.querySelector('.hoptwo')
+const close2 = document.querySelector('#closeTwo')
+const hopThree = document.querySelector('.hopThree')
+const btn3 = document.querySelector('#btnThree');
+const close3 = document.querySelector('#closeThree')
+const hopFour = document.querySelector('.hopFour')
+const btn4 = document.querySelector('#btnFour');
+const close4 = document.querySelector('#closeFour')
+const hopFive = document.querySelector('.hopFive')
+const btn5 = document.querySelector('#btnFive');
+const close5 = document.querySelector('#closeFive')
+const hopSix = document.querySelector('.hopSix')
+const btn6 = document.querySelector('#btnSix');
+const close6 = document.querySelector('#closeSix')
+const hopSeven = document.querySelector('.hopSeven')
+const btn7 = document.querySelector('#btnSeven');
+const close7 = document.querySelector('#closeSeven')
+const hopEight = document.querySelector('.hopEight')
+const btn8 = document.querySelector('#btnEight');
+const close8 = document.querySelector('#closeEight')
+const hopNine = document.querySelector('.hopNine')
+const btn9 = document.querySelector('#btnNine');
+const close9 = document.querySelector('#closeNine')
 
 
-
-
-
-btn1.addEventListener("click", function(event){
-    const popOne = document.querySelector('.hoppUpOne')
-    popOne.style.display= 'block'
-    closeOne.onclick = function (event) {
-        event.preventDefault();
-        popOne.style.display= "none"
+btn1.addEventListener('click', () =>{
+    hop.style.display= "block"
+    close1.onclick = function() {
+        hop.style.display = 'none'
     }
 })
 
-
-btn2.addEventListener("click", function(){
-    const popTwo = document.querySelector('.hoppUpTwo')
-    popTwo.style.display= "block"
-    closeTwo.onclick = function () {
-        popTwo.style.display = "none"
-    }
-} )
-
-btn3.addEventListener("click", function(){
-    const popThree = document.querySelector('.hoppUpThree')
-    popThree.style.display= "block"
-    closeThree.onclick = function () {
-        popThree.style.display = "none"
+btn2.addEventListener('click', () =>{
+    hopTwo.style.display= "block"
+    close2.onclick = function() {
+        hopTwo.style.display = 'none'
     }
 })
 
-btn4.addEventListener("click", function() {
-    const popFour = document.querySelector('.hoppUpFour')
-    popFour.style.display = "block"
-    closefour.onclick = function () {
-        popFour.style.display = "none"
+btn3.addEventListener('click', () =>{
+    hopThree.style.display= "block"
+    close3.onclick = function() {
+        hopThree.style.display = 'none'
     }
 })
 
-btn5.addEventListener("click", function() {
-    const popFive = document.querySelector('.hoppUpFive')
-    popFive.style.display = "block"
-    closeFive.onclick = function() {
-        popFive.style.display = "none"
+btn4.addEventListener('click', () =>{
+    hopFour.style.display= "block"
+    close4.onclick = function() {
+        hopFour.style.display = 'none'
     }
 })
 
-btn6.addEventListener("click", function(){
-    const button = document.querySelector('.hoppUpSix')
-    button.style.display= "block"
-    closeSix.onclick = function () {
-        button.style.display = "none"
+btn5.addEventListener('click', () =>{
+    hopFive.style.display= "block"
+    close5.onclick = function() {
+        hopFive.style.display = 'none'
     }
 })
 
-btn7.addEventListener("click", function(){
-    const eren = document.querySelector('.hoppUpSeven')
-    eren.style.display= 'block'
-    closeSeven.onclick = function (event) {
-        event.preventDefault();
-        eren.style.display= "none"
+btn6.addEventListener('click', () =>{
+    hopSix.style.display= "block"
+    close6.onclick = function() {
+        hopSix.style.display = 'none'
     }
 })
 
-btn8.addEventListener("click", function(){
-    const vanitas = document.querySelector('.hoppUpEight')
-    vanitas.style.display = "block"
-    closeEight.onclick = function(){
-        vanitas.style.display= "none"
+btn7.addEventListener('click', () =>{
+    hopSeven.style.display= "block"
+    close7.onclick = function() {
+        hopSeven.style.display = 'none'
     }
 })
 
-btn9.addEventListener('click', function(){
-    const boji = document.querySelector('.hoppUpNine')
-    boji.style.display = "block"
-    closeNine.onclick = function(){
-        boji.style.display = "none"
+btn8.addEventListener('click', () =>{
+    hopEight.style.display= "block"
+    close8.onclick = function() {
+        hopEight.style.display = 'none'
+    }
+})
+
+btn9.addEventListener('click', () =>{
+    hopNine.style.display= "block"
+    close9.onclick = function() {
+        hopNine.style.display = 'none'
     }
 })
